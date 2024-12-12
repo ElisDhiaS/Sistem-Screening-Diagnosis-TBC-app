@@ -1,6 +1,6 @@
 streamlit 
 numpy
-pickle
+pip
 fpdf 
 base64
 pandas
