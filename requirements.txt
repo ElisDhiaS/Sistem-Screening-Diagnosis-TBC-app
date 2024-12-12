@@ -1,7 +1,6 @@
-streamlit 
-numpy
-pip
-fpdf 
-pandas
-sklearn
-matplotlib
+streamlit==1.41.0
+numpy==2.2.0
+pip>=24.3.1
+fpdf==1.7.2
+pandas==2.2.3
+scikit-learn
