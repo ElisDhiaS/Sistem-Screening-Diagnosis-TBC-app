@@ -5,13 +5,14 @@ from fpdf import FPDF
 import base64
 import os
 
-# Load model function
 def load_model():
-    # Use a raw string or double backslashes to avoid escape character issues
-    model_path = r"E:\Phoebe Intelligence\model_random_forest.pkl"  # or "E:\\Phoebe Intelligence\\rf_model.pkl"
+    model_path = r"E:\Phoebe Intelligence\model_terbaik.pkl"
+    if not os.path.exists(model_path):
+        raise FileNotFoundError(f"Model file not found at: {model_path}")
     with open(model_path, "rb") as file:
         model = pickle.load(file)
     return model
+
 
 # Function to create PDF
 def create_pdf(nama, usia, jenis_kelamin, hasil_prediksi):
