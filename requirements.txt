@@ -2,7 +2,6 @@ streamlit
 numpy
 pip
 fpdf 
-base64
 pandas
 sklearn
 matplotlib
