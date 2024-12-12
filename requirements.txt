@@ -1,0 +1,8 @@
+streamlit 
+numpy
+pickle
+fpdf 
+base64
+pandas
+sklearn
+matplotlib
